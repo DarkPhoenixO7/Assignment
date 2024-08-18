@@ -1,6 +1,13 @@
 .App {
   text-align: center;
 }
+.dropdown-content {
+  display: block; /* Ensure it's not hidden */
+  position: absolute;
+  background-color: white;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  z-index: 1000; /* Ensure it appears above other content */
+}
 
 .App-logo {
   height: 40vmin;
@@ -12,6 +19,7 @@
     animation: App-logo-spin infinite 20s linear;
   }
 }
+
 
 .App-header {
   background-color: #282c34;
